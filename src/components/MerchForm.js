@@ -27,9 +27,9 @@ function NewMerchForm(props) {
                 placeholder='Description' />
             <input
                 type='number'
-                quantity='quantity'
+                name='quantity'
                 placeholder='Quantity' />
-            <button type='submit'>Create New Merch</button>
+            <button type='submit'>Add Merch</button>
         </form>
         </React.Fragment>
     );
