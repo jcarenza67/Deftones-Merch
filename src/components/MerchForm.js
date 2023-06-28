@@ -23,7 +23,7 @@ function NewMerchForm(props) {
                 placeholder='Name' />
             <input
                 type='text'
-                description='description'
+                name='description'
                 placeholder='Description' />
             <input
                 type='number'

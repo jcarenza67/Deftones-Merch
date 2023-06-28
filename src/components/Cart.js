@@ -1,6 +1,7 @@
 import React from "react";
 import CartItem from "./CartItem";
 
+
 function Cart ({ cartItems, removeFromCart }) {
     return (
         <div>
@@ -11,7 +12,8 @@ function Cart ({ cartItems, removeFromCart }) {
                 cartItems.map((item) => (
                     <CartItem key={item.id} 
                     item={item} 
-                    removeFromCart={removeFromCart} />
+                    removeFromCart={removeFromCart} 
+                    />
                 ))
                 )}
         </div>

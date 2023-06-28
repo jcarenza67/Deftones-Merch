@@ -5,7 +5,8 @@ function Merch(props){
     return (
     <React.Fragment>
         <h3>{props.name}</h3>
-        <p>{props.description} /\ {props.quantity}</p>
+        <p>{props.description}</p>
+        <p>{props.quantity}</p>
     </React.Fragment>
     );
 }
